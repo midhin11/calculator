@@ -1,11 +1,11 @@
 * {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
 }
 
 .sqBtn, .clearBtn{
-    height: 60px;
-    width: 85px;
+    height: 70px;
+    width: 100px;
     border: 1px solid black;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@
 
 .equals {
     border: 1px solid black;
-    width: 85px;
+    width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@
 }
 
 .numbers-actions {
-    width: 255px;
+    width: 300px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -39,10 +39,9 @@
 }
 
 .operators button{
-    width: 85px;
-    height: 60px;
-    font-size: 25px;
-    font-weight: 800;
+    width: 100px;
+    height: 70px;
+    font-weight: 600;
     color: darkmagenta;
     background-color: #D3D3D3;
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -55,12 +54,12 @@
 
 .display {
     box-sizing: border-box;
-    width: 340px;
-    height: 80px;
+    width: 400px;
+    height: 85px;
     border: 1px solid black;
     color: white;
     background-color: rgb(26, 26, 26);
-    font-size: 46px;
+    font-size: 55px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -114,7 +113,7 @@ body, html {
 }
 
 .footer {
-    font-size: 16px;
+    font-size: 18px;
     position: absolute;
     width: 99.5%;
     bottom: 0.2%;
@@ -123,13 +122,13 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
+    height: 50px;
 }
 
 .header {
     position: absolute;
     top: 0.1%;
-    height: 50px;
+    height: 80px;
     display: flex;
     align-items: center;
     padding-left: 10px;
@@ -137,6 +136,6 @@ body, html {
     background-color: darkmagenta;
     width: 98.9%;
     font-weight: 1000;
-    font-size: 35px;
+    font-size: 55px;
     font-family: 'Orbitron', serif;
 }
