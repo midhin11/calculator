@@ -6,16 +6,21 @@
     <title>Calculator</title>
     <script src="js.js" defer></script>
     <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main">
+        <div class="header">CALCULATOR</div>
+
         <div class="calculator">
-            <div class="screen">567236572</div>
+            <div class="display"></div>
             <div class="operators">
-                <button class="sqBtn add">+</button>
-                <button class="sqBtn subtact">-</button>
-                <button class="sqBtn multiply">*</button>
-                <button class="sqBtn divide">/</button>
+                <button class="opBtn">+</button>
+                <button class="opBtn">-</button>
+                <button class="opBtn">*</button>
+                <button class="opBtn">/</button>
             </div>
             <div class="container">
                 <div class="numbers-actions">
@@ -30,11 +35,13 @@
                     <button class="sqBtn">3</button>
                     <button class="sqBtn">0</button>
                     <button class="sqBtn">.</button>
-                    <button class="sqBtn">C</button>
+                    <button class="clearBtn">C</button>
                 </div>
                 <button class="equals">=</buttons>
             </div>
         </div>
+
+        <div class="footer">Don't lose your smile! No copyrights involved!</div>
     </div>
 </body>
 </html>

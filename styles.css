@@ -3,9 +3,9 @@
     font-weight: 500;
 }
 
-.sqBtn {
+.sqBtn, .clearBtn{
     height: 60px;
-    width: 100px;
+    width: 85px;
     border: 1px solid black;
     display: flex;
     justify-content: center;
@@ -15,12 +15,11 @@
 
 .container {
     display: flex;
-
 }
 
 .equals {
     border: 1px solid black;
-    width: 100px;
+    width: 85px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +29,7 @@
 }
 
 .numbers-actions {
-    width: 300px;
+    width: 255px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -40,9 +39,11 @@
 }
 
 .operators button{
+    width: 85px;
+    height: 60px;
     font-size: 25px;
     font-weight: 800;
-    color: darkorange;
+    color: darkmagenta;
     background-color: #D3D3D3;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
@@ -52,18 +53,19 @@
     transform: scale(1.05);
 }
 
-.screen {
+.display {
     box-sizing: border-box;
-    width: 400px;
-    height: 70px;
+    width: 340px;
+    height: 80px;
     border: 1px solid black;
     color: white;
     background-color: rgb(26, 26, 26);
-    font-size: 45px;
+    font-size: 46px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-right: 10px;
+    font-family: 'Orbitron', serif;
 }
 
 button:hover {
@@ -78,12 +80,12 @@ button {
 }
 
 .equals {
-    background-color: orange;
+    background-color: darkmagenta;
     color: white
 }
 
 .equals:hover{
-    background-color: darkorange;
+    background-color: rgb(122, 0, 122);
 }
 
 .calculator {
@@ -93,10 +95,48 @@ button {
     display: inline-block;
 }
 
+
 .main {
-    background-color: antiquewhite;
+    background-color: rgb(230, 171, 208);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 675px; */
+    height: 100vh;
+    border: 2px solid black;
+}   
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.footer {
+    font-size: 16px;
+    position: absolute;
+    width: 99.5%;
+    bottom: 0.2%;
+    background-color: darkmagenta;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 675px;
+    height: 40px;
+}
+
+.header {
+    position: absolute;
+    top: 0.1%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: white;
+    background-color: darkmagenta;
+    width: 98.9%;
+    font-weight: 1000;
+    font-size: 35px;
+    font-family: 'Orbitron', serif;
 }
